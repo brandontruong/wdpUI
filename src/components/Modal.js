@@ -34,7 +34,7 @@ const StyledButton = styled.button`
 const StyledDialog = styled.div`
   position: relative;
   display: inline-block;
-  width: 500px;
+  width: 70%;
   background: white;
   border: 1px solid #ccc;
   margin-top: 100px;

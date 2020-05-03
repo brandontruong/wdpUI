@@ -8,6 +8,9 @@ const StyledContainer = styled.div`
   display: flex;
   align-items: start;
   font-size: 0.8em;
+  @media only screen and (max-width: 600px) {
+    display: block;
+  }
 `;
 
 const StyledImage = styled.img`
@@ -26,6 +29,10 @@ const StyledRightColumn = styled.div`
   flex-grow: 1;
   padding: 12px;
   padding-top: 91px;
+  @media only screen and (max-width: 600px) {
+    padding: 0;
+    padding-top: 12px;
+  }
 `;
 
 const EmployeeDetailsView = ({ selectedEmployee: { avatar, bio, firstName, lastName, jobTitle, age, dateJoined } }) => (
