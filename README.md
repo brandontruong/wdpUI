@@ -23,5 +23,6 @@ You must have installed:
 3. Redux hooks are being used.
 4. Application is responsive when the browser resizes. Been tested in Chrome, Firefox, and Safari.
 5. Test unit has been set up. Test coverage could be higher if required.
+6. Accessibility (HTML validator) is passed.
 
 _*Note:* If anything is unclear, please reach out to me at brandon.truong@outlook.com_

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-const StyledButton = styled.button`
+const StyledButton = styled.article`
   background: none!important;
   text-align: left;
   border: none;
@@ -56,7 +56,7 @@ const StyledBio = styled.div`
 `;
 
 const EmployeeCardView = ({ id, avatar, bio, firstName, lastName, onEmployeeCardSelected, selected }) => (
-  <StyledButton type="button" onClick={onEmployeeCardSelected(`${id}`)}>
+  <StyledButton onClick={onEmployeeCardSelected(`${id}`)}>
     <StyledCard selected={selected}>
       <div><img src={avatar} alt="avatar" /></div>
       <StyledRightColumn>

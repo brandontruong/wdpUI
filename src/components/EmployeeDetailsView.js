@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import employeeType from '../types/index';
 
-const StyledContainer = styled.div`
+const StyledContainer = styled.article`
   text-align: left;
   margin: 12px;
   display: flex;
